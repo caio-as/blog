@@ -1,0 +1,10 @@
+{
+    "layout": "layouts/post.njk",
+    "navbar": "navbar1",
+    "footer": "footer1",
+    "pathprefix": "juhu",
+    "permalink": "post-{{ title | slugify }}.html",
+    "tags": [
+      "posts"
+    ]
+}
